@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="7">
+  <test thread-count="5" name="Test(failed)" verbose="7">
+    <parameter name="site" value="https://www.goibibo.com"/>
+    <parameter name="Driver" value="Chrome"/>
+    <classes>
+      <class name="com.qa.goibiboBooking.Goibibo">
+        <methods>
+          <include name="setExtentReports"/>
+          <include name="setUp"/>
+          <include name="endExtentReports"/>
+          <include name="goibiboBookingTest" invocation-numbers="2"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.goibiboBooking.Goibibo -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

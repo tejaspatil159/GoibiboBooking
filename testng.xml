@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite"  verbose="7">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="Driver" value="Chrome"></parameter>
+  <parameter name="site" value="https://www.goibibo.com"></parameter>
+  <classes>
+  <class name="com.qa.goibiboBooking.Goibibo"></class>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
